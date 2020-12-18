@@ -5,3 +5,7 @@ declare module '*.vue' {
 }
 
 declare type ComponentSize = 'large' | 'medium' | 'small' | 'mini'
+
+declare type TimeoutHandle = ReturnType<typeof global.setTimeout>
+
+declare type Hash<T> = Indexable<T>
