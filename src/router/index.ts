@@ -19,6 +19,11 @@ const routes: Array<RouteRecordRaw> = [
     path: '/carousel',
     name: 'Carousel',
     component: () => import(/* webpackChunkName: "Carousel" */ '../views/Carousel/index.vue')
+  },
+  {
+    path: '/preview',
+    name: 'Preview',
+    component: () => import(/* webpackChunkName: "Preview" */ '../views/Preview/index.vue')
   }
 ]
 
